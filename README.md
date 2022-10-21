@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
 
+# Desciption
+
+it's an academic project in which I developed a search engine with : elasticsearch , logstash and kibana for the indexation of a "flickr" database of 14 millions images and angular as a graphical interface for the search with a word .
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
