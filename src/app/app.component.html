@@ -1,0 +1,18 @@
+<div class="container">
+<span  class="subcontainer">
+  <div class="input-group">
+    <div class="form-outline">
+      <mat-form-field style="text-align: center;">
+        <input  matInput  [(ngModel)]="word" style="size: 15%;">
+        </mat-form-field>
+        <button matSuffix mat-button (click)="onSearch()"><mat-icon >search</mat-icon></button>
+    </div>
+  </div>
+  </span>
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let image of ImgList"><img class="card-img-top" [src]="image" alt="Card image cap" ></mat-grid-tile>
+    
+    </mat-grid-list>
+</div>        
+  
+  

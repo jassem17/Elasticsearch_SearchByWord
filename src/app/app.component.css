@@ -1,0 +1,17 @@
+.subcontainer{
+    height: 30%;
+    min-width: 100%;
+}
+.container{
+    height: 70%;
+    min-width: 100%;
+}
+.form-control{
+    height: 97%;
+    min-width: 200%;
+}
+#top{
+ margin-left: 19%;
+ width: 6%;
+    
+}
